@@ -2,88 +2,66 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Unidad de Investigación Integral de Tizimín</title>
 
 <style>
 body {
-  margin:0;
-  font-family: 'Segoe UI', sans-serif;
-  background:#eef3f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
 }
 
 header {
-  background: linear-gradient(90deg,#0a3d62,#145da0);
-  color:white;
-  padding:40px;
-  text-align:center;
+    background: #0b3c5d;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 nav {
-  background:#ffffff;
-  padding:15px;
-  text-align:center;
-  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    background: #145374;
+    padding: 10px;
+    text-align: center;
 }
 
 nav a {
-  margin:0 15px;
-  text-decoration:none;
-  color:#145da0;
-  font-weight:bold;
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-  padding:50px;
-  max-width:1100px;
-  margin:auto;
-}
-
-.card {
-  background:white;
-  padding:30px;
-  margin-bottom:25px;
-  border-radius:12px;
-  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
 }
 
 h2 {
-  color:#0a3d62;
+    color: #0b3c5d;
 }
 
-.hero {
-  text-align:center;
-  margin-top:20px;
-}
-
-.hero p {
-  font-size:18px;
-}
-
-button {
-  background:#145da0;
-  color:white;
-  border:none;
-  padding:12px 20px;
-  border-radius:8px;
-  cursor:pointer;
-}
-
-input, textarea {
-  width:100%;
-  padding:12px;
-  margin-top:10px;
-  margin-bottom:15px;
-  border-radius:6px;
-  border:1px solid #ccc;
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 footer {
-  background:#0a3d62;
-  color:white;
-  text-align:center;
-  padding:20px;
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+button {
+    background: #0b3c5d;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 </style>
 
@@ -92,68 +70,69 @@ footer {
 <body>
 
 <header>
-<h1>Unidad de Investigación Integral de Tizimín</h1>
-<p>Investigación clínica con ética, ciencia y compromiso</p>
+    <h1>Unidad de Investigación Integral de Tizimín, S.C.</h1>
+    <p>Investigación clínica con estándares éticos y científicos</p>
 </header>
 
 <nav>
-<a href="#nosotros">Nosotros</a>
-<a href="#servicios">Servicios</a>
-<a href="#estudio">Estudio</a>
-<a href="#contacto">Contacto</a>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Sobre Nosotros</a>
+    <a href="#estudio">Estudio Clínico</a>
+    <a href="#etica">Ética</a>
+    <a href="#contacto">Contacto</a>
 </nav>
 
-<section class="hero">
-<h2>Innovación en Investigación Clínica</h2>
-<p>Participa en estudios clínicos y contribuye al avance de la medicina</p>
+<section id="inicio">
+    <div class="card">
+        <h2>Bienvenido</h2>
+        <p>Somos una institución dedicada a la investigación clínica orientada a mejorar la salud pública mediante estudios científicos rigurosos.</p>
+    </div>
 </section>
 
 <section id="nosotros">
-<div class="card">
-<h2>Sobre Nosotros</h2>
-<p>
-Fundada en 2009, la Unidad de Investigación Integral de Tizimín se especializa en el desarrollo de estudios clínicos bajo estándares internacionales.
-</p>
-</div>
-</section>
-
-<section id="servicios">
-<div class="card">
-<h2>Servicios</h2>
-<ul>
-<li>Consulta médica</li>
-<li>Estudios clínicos</li>
-<li>Análisis de laboratorio</li>
-<li>Aplicación de tratamientos</li>
-</ul>
-</div>
+    <div class="card">
+        <h2>Sobre la Unidad</h2>
+        <p>La Unidad de Investigación Integral de Tizimín, S.C. es una organización constituida bajo el régimen de Sociedad Civil, dedicada al desarrollo de estudios clínicos en el área de la salud.</p>
+        <p>Nuestra misión es contribuir al avance científico mediante la generación de evidencia médica confiable, cumpliendo con estándares éticos y regulatorios.</p>
+    </div>
 </section>
 
 <section id="estudio">
-<div class="card">
-<h2>Estudio: Fiebre Amarilla</h2>
-<p>Actualmente reclutando participantes.</p>
-<p>Participación voluntaria con consentimiento informado.</p>
-</div>
+    <div class="card">
+        <h2>Estudio Clínico: Fiebre Amarilla</h2>
+        <p>Actualmente desarrollamos un estudio clínico enfocado en la evaluación epidemiológica, diagnóstico y tratamiento de la fiebre amarilla.</p>
+        <p>El estudio se realiza bajo lineamientos de Buenas Prácticas Clínicas (GCP) y normativas internacionales.</p>
+    </div>
+</section>
+
+<section id="etica">
+    <div class="card">
+        <h2>Ética y Regulación</h2>
+        <p>Todos nuestros estudios cumplen con la Declaración de Helsinki y son revisados por comités de ética e investigación.</p>
+        <p>Garantizamos la seguridad, confidencialidad y derechos de los participantes.</p>
+    </div>
 </section>
 
 <section id="contacto">
-<div class="card">
-<h2>Participa</h2>
+    <div class="card">
+        <h2>Contacto</h2>
+        <form>
+            <label>Nombre:</label><br>
+            <input type="text"><br><br>
 
-<form action="https://formspree.io/f/tu_codigo" method="POST">
-<input type="text" name="nombre" placeholder="Nombre completo" required>
-<input type="email" name="email" placeholder="Correo electrónico" required>
-<input type="tel" name="telefono" placeholder="Teléfono" required>
-<textarea name="mensaje" placeholder="Comentarios"></textarea>
-<button type="submit">Enviar</button>
-</form>
+            <label>Correo:</label><br>
+            <input type="email"><br><br>
 
-</div>
+            <label>Mensaje:</label><br>
+            <textarea></textarea><br><br>
+
+            <button>Enviar</button>
+        </form>
+    </div>
 </section>
 
 <footer>
-<p>© 2026 UIIT - Investigación Clínica</p>
+    <p>© 2026 Unidad de Investigación Integral de Tizimín, S.C.</p>
 </footer>
 
 </body>
